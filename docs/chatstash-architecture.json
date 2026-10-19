@@ -7,7 +7,7 @@
     "quality_profile": "showcase",
     "output": "chatstash-architecture.html",
     "repository": {
-      "url": "https://github.com/build-workbench/chat-stash",
+      "url": "https://github.com/holtwood-projects/chat-stash",
       "revision": "3a44eadd8423a650ebab1eb34f91666fc46c83a5"
     },
     "views": [
