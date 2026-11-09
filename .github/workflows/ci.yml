@@ -34,3 +34,5 @@ jobs:
       - run: pnpm install --frozen-lockfile
       - run: pnpm lint
       - run: pnpm typecheck
+      # 单元测试（Vitest）不依赖 Supabase，必须进 CI；否则 30+ 个用例拦不住回归。
+      - run: pnpm test

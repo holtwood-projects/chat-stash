@@ -7,7 +7,9 @@ DeepSeek 页面一键保存问答，Web 端统一整理、搜索与导出。
 
 ## [Unreleased]
 
-_(暂无)_
+### 变更
+
+- CI 增加 `pnpm test`（4 个工作区的 Vitest 用例），此前只跑 lint 与 typecheck，测试再多也拦不住回归。`pnpm db:test` 依赖本地 Supabase 与 Docker，仍只在本地执行。
 
 ## [v0.1.0] - 2026-09-28
 ### 新增
